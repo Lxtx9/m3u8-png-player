@@ -1,5 +1,10 @@
 # M3U8 PNG Player
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Lxtx9/m3u8-png-player/releases/tag/v1.0.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Download](https://img.shields.io/badge/Download-.user.js-orange)](https://raw.githubusercontent.com/Lxtx9/m3u8-png-player/main/m3u8-png-player.user.js)
+[![hls.js](https://img.shields.io/badge/hls.js-1.6.15-red)](https://github.com/videojs/hls.js)
+
 基于 [hls.js](https://github.com/videojs/hls.js) 的 **M3U8 / HLS 播放器油猴脚本**（Tampermonkey / Greasemonkey）。
 
 核心特性：支持解析**伪装 / 封装在 PNG 文件尾部**的 HLS 视频分片，并配合预加载与卡顿自愈机制流畅播放。
