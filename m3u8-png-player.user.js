@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         M3U8 PNG 视频播放器 v6.1
+// @name         M3U8 PNG 视频播放器
 // @namespace    m3u8-png-player
 // @version      1.0.0
 // @match        *://*/*
@@ -13,7 +13,7 @@
   "use strict";
 
   var W = (typeof unsafeWindow !== "undefined" && unsafeWindow) || window;
-  var TAG = "[M3U8v6]";
+  var TAG = "[M3U8]";
 
   function log() {
     var a = Array.prototype.slice.call(arguments);
@@ -786,7 +786,7 @@
   }
 
   function boot() {
-    log("v6.1 ready");
+    log("v1.0.0 ready");
 
     var style = document.createElement("style");
     style.textContent = "@keyframes m3u8Spin{100%{transform:rotate(360deg)}}";
@@ -796,7 +796,7 @@
 
     try {
       W.__m3u8Player = {
-        version: "6.1",
+        version: "1.0.0",
         play: startPlay,
         getUrl: function () { return currentUrl; }
       };
